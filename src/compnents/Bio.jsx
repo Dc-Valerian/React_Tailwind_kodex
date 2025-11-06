@@ -8,7 +8,10 @@ const Bio = () => {
     { name: "TailwindCss", level: 90 },
   ];
   return (
-    <section className="py-16 px-6 md:px-20 bg-white flex flex-col md:flex-row items-center gap-10 relative">
+    <section
+      id="about"
+      className="py-16 px-6 md:px-20 bg-white flex flex-col md:flex-row items-center gap-10 relative"
+    >
       <img
         src="https://preview.colorlib.com/theme/orbit/images/dots.png"
         alt="dots"
